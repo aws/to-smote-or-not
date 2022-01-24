@@ -3,6 +3,8 @@ This package includes the code required to repeat the experiments in the paper a
 the results.
 
 > To SMOTE, or not to SMOTE?
+> 
+> Yotam Elor and Hadar Averbuch-Elor
 
 ## Installation
 ```
@@ -119,8 +121,13 @@ avg_plots(df, "test.roc_auc")
 ```
 ## Citation
 ```
-@InProceedings{toSMOTEornot,
-    title = {To SMOTE, or not to SMOTE?},
+@misc{elor2022smote,
+    title={To SMOTE, or not to SMOTE?}, 
+    author={Yotam Elor and Hadar Averbuch-Elor},
+    year={2022},
+    eprint={2201.08528},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG}
 }
 ```
 
